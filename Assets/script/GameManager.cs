@@ -222,7 +222,7 @@ public class GameManager : MonoBehaviour
 	void OnDragStart()
 	{
 		//공이 멈추게 만들어버림.
-		//ball.DesactivateRb();
+		ball.DesactivateRb();
 		startPoint = cam.ScreenToWorldPoint(Input.mousePosition);
 
 		//공 점점커지는게 보인다. 
